@@ -12,7 +12,7 @@ public class Main {
 
 		while (Continue.toUpperCase().equals("Y")) {
 
-			System.out.println("What length password do you require? ");
+			System.out.print("What length password do you require? ");
 
 			String lengthS = scanner.next();
 			int length = Integer.parseInt(lengthS);
@@ -20,13 +20,13 @@ public class Main {
 
 			Id = randomId.generate(length);
 
-			System.out.println("Here is your "+length+" length pasword: " + Id);
+			System.out.println("Here is a "+length+" character pasword: " + Id);
 
-			System.out.println("Do you want another password? Y/N: ");
+			System.out.print("Do you want another password? Y/N: ");
 			Continue = scanner.next();
 		}
 		scanner.close();
-		System.out.println(Continue + "? Thakyou come again!");
+		System.out.println("Thank you come again!");
 
 	}
 }

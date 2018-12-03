@@ -52,5 +52,18 @@ public class RandomNumberMavenTest {
 		// Assert
 		assertThat(Id1, not(Id2));
 	}
+	
+/*	@Test
+	public void test_generateMethod_ReturnsStringOfLength15_WhenGiven15ForLengthInputVarInConsole() {
+		// Arrange
+		RandomId randomId = new RandomId();
+		String Id1 = "";
+		String Id2 = "";
+		// Act
+		Id1 = randomId.generate(15);
+		Id2 = randomId.generate(15);
+		// Assert
+		assertThat(Id1, not(Id2));
+	}*/
 
 }
